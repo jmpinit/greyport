@@ -1,0 +1,4 @@
+greyport
+========
+
+Greyport is designed to turn the world into an open hardware hacking playground. Loosely based on the highly popular line of TI calculators, the goal of the project is to build a device that can be used as a portable electronics hacking tool. A target device can be easily connected to greyport and a script to communicate with and control the target can be rapidly written on greyport itself. Because the user-created scripts can be written quickly and stored for later use they turn greyport into a hugely multipurpose digital electronics tool. An online collection of scripts created by other users further extends the usefulness of the device.
