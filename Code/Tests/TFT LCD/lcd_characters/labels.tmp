@@ -1,0 +1,47 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.1.30</VERSION>
+ <DEVICE>ATmega168</DEVICE>
+ <WORKING_DIR>C:\Projects\Hardware\Greyport\lcd\code\lcd_characters</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:\Program Files\Atmel\AVR Tools\AvrAssembler2\Appnotes</DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>C:\Projects\Hardware\Greyport\lcd\code\lcd_characters\lcd_characters.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:\Program Files\Atmel\AVR Tools\AvrAssembler2\Appnotes\m168def.inc</FILE>
+  <FILE>C:\Projects\Hardware\Greyport\lcd\code\lcd_characters\control.asm</FILE>
+  <FILE>C:\Projects\Hardware\Greyport\lcd\code\lcd_characters\startup.asm</FILE>
+  <FILE>C:\Projects\Hardware\Greyport\lcd\code\lcd_characters\pixel.asm</FILE>
+  <FILE>C:\Projects\Hardware\Greyport\lcd\code\lcd_characters\font_phat.asm</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>C:\Projects\Hardware\Greyport\lcd\code\lcd_characters\lcd_characters.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>C:\Projects\Hardware\Greyport\lcd\code\lcd_characters\lcd_characters.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>C:\Projects\Hardware\Greyport\lcd\code\lcd_characters\lcd_characters.map</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <reset><FILE>C:\Projects\Hardware\Greyport\lcd\code\lcd_characters\lcd_characters.asm</FILE><LINE>283</LINE></reset>
+  <delay><FILE>C:\Projects\Hardware\Greyport\lcd\code\lcd_characters\lcd_characters.asm</FILE><LINE>48</LINE></delay>
+  <delay0><FILE>C:\Projects\Hardware\Greyport\lcd\code\lcd_characters\lcd_characters.asm</FILE><LINE>51</LINE></delay0>
+  <delay1><FILE>C:\Projects\Hardware\Greyport\lcd\code\lcd_characters\lcd_characters.asm</FILE><LINE>64</LINE></delay1>
+  <lcd_init><FILE>C:\Projects\Hardware\Greyport\lcd\code\lcd_characters\control.asm</FILE><LINE>1</LINE></lcd_init>
+  <lcd_wr_reg><FILE>C:\Projects\Hardware\Greyport\lcd\code\lcd_characters\control.asm</FILE><LINE>51</LINE></lcd_wr_reg>
+  <lcd_wr_reg16><FILE>C:\Projects\Hardware\Greyport\lcd\code\lcd_characters\control.asm</FILE><LINE>21</LINE></lcd_wr_reg16>
+  <lcd_wr_data16><FILE>C:\Projects\Hardware\Greyport\lcd\code\lcd_characters\control.asm</FILE><LINE>36</LINE></lcd_wr_data16>
+  <lcd_fill><FILE>C:\Projects\Hardware\Greyport\lcd\code\lcd_characters\pixel.asm</FILE><LINE>2</LINE></lcd_fill>
+  <lcd_fill0><FILE>C:\Projects\Hardware\Greyport\lcd\code\lcd_characters\pixel.asm</FILE><LINE>15</LINE></lcd_fill0>
+  <lcd_fill1><FILE>C:\Projects\Hardware\Greyport\lcd\code\lcd_characters\pixel.asm</FILE><LINE>17</LINE></lcd_fill1>
+  <lcd_draw_char><FILE>C:\Projects\Hardware\Greyport\lcd\code\lcd_characters\lcd_characters.asm</FILE><LINE>96</LINE></lcd_draw_char>
+  <font_phat><FILE>C:\Projects\Hardware\Greyport\lcd\code\lcd_characters\font_phat.asm</FILE><LINE>1</LINE></font_phat>
+  <lcd_draw_char1><FILE>C:\Projects\Hardware\Greyport\lcd\code\lcd_characters\lcd_characters.asm</FILE><LINE>188</LINE></lcd_draw_char1>
+  <lcd_draw_char2><FILE>C:\Projects\Hardware\Greyport\lcd\code\lcd_characters\lcd_characters.asm</FILE><LINE>191</LINE></lcd_draw_char2>
+  <lcd_draw_char3><FILE>C:\Projects\Hardware\Greyport\lcd\code\lcd_characters\lcd_characters.asm</FILE><LINE>208</LINE></lcd_draw_char3>
+  <lcd_draw_charF><FILE>C:\Projects\Hardware\Greyport\lcd\code\lcd_characters\lcd_characters.asm</FILE><LINE>222</LINE></lcd_draw_charF>
+  <lcd_draw_charB><FILE>C:\Projects\Hardware\Greyport\lcd\code\lcd_characters\lcd_characters.asm</FILE><LINE>212</LINE></lcd_draw_charB>
+  <lcd_draw_char4><FILE>C:\Projects\Hardware\Greyport\lcd\code\lcd_characters\lcd_characters.asm</FILE><LINE>230</LINE></lcd_draw_char4>
+  <forever><FILE>C:\Projects\Hardware\Greyport\lcd\code\lcd_characters\lcd_characters.asm</FILE><LINE>292</LINE></forever>
+ </LABELS>
+</ASSEMBLER_INFO>

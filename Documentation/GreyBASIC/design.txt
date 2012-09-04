@@ -1,0 +1,24 @@
+variables
+	-VAR0 to VAR31, accessible from menu
+
+control:
+	IF <statement>
+	THEN
+	ELSE
+	FOR
+	WHILE
+	END
+	PAUSE
+	LBL
+	GOTO
+	PRGM
+	RETURN
+	STOP
+
+I/O:
+	INPUT
+	PRINT
+	OUTPUT
+	GETKEY
+	POKE
+	PEEK

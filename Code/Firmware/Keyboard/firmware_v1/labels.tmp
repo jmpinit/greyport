@@ -1,0 +1,32 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.1.30</VERSION>
+ <DEVICE>ATmega168</DEVICE>
+ <WORKING_DIR>C:\Projects\Hardware\Greyport\keyboard\code\firmware_v1</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:\Program Files\Atmel\AVR Tools\AvrAssembler2\Appnotes</DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>C:\Projects\Hardware\Greyport\keyboard\code\firmware_v1\firmware_v1.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:\Program Files\Atmel\AVR Tools\AvrAssembler2\Appnotes\m168def.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>C:\Projects\Hardware\Greyport\keyboard\code\firmware_v1\firmware_v1.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>C:\Projects\Hardware\Greyport\keyboard\code\firmware_v1\firmware_v1.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>C:\Projects\Hardware\Greyport\keyboard\code\firmware_v1\firmware_v1.map</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <reset><FILE>C:\Projects\Hardware\Greyport\keyboard\code\firmware_v1\firmware_v1.asm</FILE><LINE>209</LINE></reset>
+  <hRXdone><FILE>C:\Projects\Hardware\Greyport\keyboard\code\firmware_v1\firmware_v1.asm</FILE><LINE>38</LINE></hRXdone>
+  <uartSend><FILE>C:\Projects\Hardware\Greyport\keyboard\code\firmware_v1\firmware_v1.asm</FILE><LINE>61</LINE></uartSend>
+  <readColumns><FILE>C:\Projects\Hardware\Greyport\keyboard\code\firmware_v1\firmware_v1.asm</FILE><LINE>77</LINE></readColumns>
+  <delay><FILE>C:\Projects\Hardware\Greyport\keyboard\code\firmware_v1\firmware_v1.asm</FILE><LINE>189</LINE></delay>
+  <delay0><FILE>C:\Projects\Hardware\Greyport\keyboard\code\firmware_v1\firmware_v1.asm</FILE><LINE>193</LINE></delay0>
+  <delay1><FILE>C:\Projects\Hardware\Greyport\keyboard\code\firmware_v1\firmware_v1.asm</FILE><LINE>196</LINE></delay1>
+  <delay2><FILE>C:\Projects\Hardware\Greyport\keyboard\code\firmware_v1\firmware_v1.asm</FILE><LINE>200</LINE></delay2>
+  <forever><FILE>C:\Projects\Hardware\Greyport\keyboard\code\firmware_v1\firmware_v1.asm</FILE><LINE>235</LINE></forever>
+ </LABELS>
+</ASSEMBLER_INFO>

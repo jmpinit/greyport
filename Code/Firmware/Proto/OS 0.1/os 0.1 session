@@ -1,0 +1,20 @@
+<NotepadPlus>
+    <Session activeView="0">
+        <mainView activeIndex="2">
+            <File firstVisibleLine="108" xOffset="0" scrollWidth="416" startPos="360" endPos="360" selMode="0" lang="C" encoding="-1" filename="C:\Projects\Hardware\Greyport\Code\Firmware\Proto\OS 0.1\main.c" />
+            <File firstVisibleLine="18" xOffset="0" scrollWidth="1252" startPos="295" endPos="295" selMode="0" lang="C" encoding="-1" filename="C:\Projects\Hardware\Greyport\Code\Firmware\Proto\OS 0.1\Interpreter.c" />
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="693" startPos="40" endPos="40" selMode="0" lang="C++" encoding="-1" filename="C:\Projects\Hardware\Greyport\Code\Firmware\Proto\OS 0.1\Editor.h" />
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="208" startPos="280" endPos="280" selMode="0" lang="C" encoding="-1" filename="C:\Projects\Hardware\Greyport\Code\Firmware\Proto\OS 0.1\Editor.c" />
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="512" startPos="167" endPos="167" selMode="0" lang="C++" encoding="-1" filename="C:\Projects\Hardware\Greyport\Code\Firmware\Proto\OS 0.1\Screen.h" />
+            <File firstVisibleLine="49" xOffset="0" scrollWidth="632" startPos="975" endPos="975" selMode="0" lang="C" encoding="-1" filename="C:\Projects\Hardware\Greyport\Code\Firmware\Proto\OS 0.1\Nokia3310.c" />
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="312" startPos="182" endPos="182" selMode="0" lang="C++" encoding="-1" filename="C:\Projects\Hardware\Greyport\Code\Firmware\Proto\OS 0.1\Serial.h" />
+            <File firstVisibleLine="45" xOffset="0" scrollWidth="592" startPos="832" endPos="832" selMode="0" lang="C" encoding="-1" filename="C:\Projects\Hardware\Greyport\Code\Firmware\Proto\OS 0.1\Serial.c" />
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="296" startPos="276" endPos="276" selMode="0" lang="C++" encoding="-1" filename="C:\Projects\Hardware\Greyport\Code\Firmware\Proto\OS 0.1\Keyboard.h" />
+            <File firstVisibleLine="3" xOffset="0" scrollWidth="512" startPos="90" endPos="90" selMode="0" lang="C" encoding="-1" filename="C:\Projects\Hardware\Greyport\Code\Firmware\Proto\OS 0.1\GKeyboard.c" />
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="552" startPos="43" endPos="43" selMode="0" lang="C++" encoding="-1" filename="C:\Projects\Hardware\Greyport\Code\Firmware\Keyboard\firmware_v2\firmware_v2.h" />
+            <File firstVisibleLine="109" xOffset="0" scrollWidth="568" startPos="2209" endPos="2209" selMode="0" lang="C" encoding="-1" filename="C:\Projects\Hardware\Greyport\Code\Firmware\Keyboard\firmware_v2\firmware_v2.c" />
+            <File firstVisibleLine="23" xOffset="0" scrollWidth="240" startPos="443" endPos="443" selMode="0" lang="Normal Text" encoding="-1" filename="C:\Projects\Software\Java\Applications\Telestruct\IDEAS.txt" />
+        </mainView>
+        <subView activeIndex="0" />
+    </Session>
+</NotepadPlus>

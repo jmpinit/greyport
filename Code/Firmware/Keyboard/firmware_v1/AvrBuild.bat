@@ -1,0 +1,2 @@
+@ECHO OFF
+"C:\Program Files\Atmel\AVR Tools\AvrAssembler2\avrasm2.exe" -S "C:\Projects\Hardware\Greyport\keyboard\code\firmware_v1\labels.tmp" -fI -W+ie -o "C:\Projects\Hardware\Greyport\keyboard\code\firmware_v1\firmware_v1.hex" -d "C:\Projects\Hardware\Greyport\keyboard\code\firmware_v1\firmware_v1.obj" -e "C:\Projects\Hardware\Greyport\keyboard\code\firmware_v1\firmware_v1.eep" -m "C:\Projects\Hardware\Greyport\keyboard\code\firmware_v1\firmware_v1.map" "C:\Projects\Hardware\Greyport\keyboard\code\firmware_v1\firmware_v1.asm"

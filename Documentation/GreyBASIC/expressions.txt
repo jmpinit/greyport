@@ -1,0 +1,3 @@
+Expression:	9/4+2*9-2
+RPN: 		94/29*2-+
+Functions:	add(subtract(multiply(2, 9), divide(9, 4)))

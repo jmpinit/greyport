@@ -1,0 +1,255 @@
+previously-presummer
+Hours worked=60
+Summary of work=Concept creation, organization, planning, general design, and resource gathering.
+
+5/17/10-presummer
+Hours worked=2
+Summary of work=I began revising the diagrams of the keyboard matrix PCB so that it can be sent to Michael to be milled on his university's milling machine. I found several errors caused by wires not being connected even though they appeared to be at a glance. I learned to use the error detection tool in EagleCAD. Once the errors were fixed I redesigned the layout of the board, but it is also incomplete. I realized that I neglected to include a space button which must be fixed before it is sent to be milled. Another possible modification is to add LEDs to the board to serve as indicators. I sent the systems overview diagram via email to Forest at his request.
+
+5/18/10-presummer
+Hours worked=2
+Summary of work=I redid the PCB layout twice again before getting right. I had trouble with the auto-router but eventually got it to work with 12mm traces. The space key is finally built in and the layout is arranged with four levels. The top three levels are letters, with arrow keys on the right. The bottom level is mostly function keys. The design was emailed to Michael to be manufactured.
+
+5/27/10-presummer
+Hours worked=1
+Summary of work=The PCBs arrived today. There are two, one is my original design and the other is a modified version that Michael made that is better suited to the milling machine and is easier to solder. I checked to make sure that they were the right size and that the buttons and headers fit. I haven't checked if the atmega168 will fit yet because I have no surface mount versions of the chip.
+
+5/29/10-presummer
+Hours worked=3
+Summary of work=Spent a large chunk of the morning coordinating with Forest and a friend that wants to help out with the project. I've got nothing for the friend to do, but I am going to remember he wanted to help when things get intense and I have a lot of stuff to do. I also started soldering the PCBs after I took more pictures and made a short explanation video clip about the keyboard. The only thing that I could work on was soldering the vias, which wasn't very difficult. For each via I soldered a small piece of solid-core wire on both sides. The whole job took about an hour. I had a video camera set up recording as I worked and it captured about 50 minutes of video but ran out before I finished. I'll speed up the clip significantly and put it into the explanation video.
+
+5/30/10-presummer
+Hours worked=4
+Summary of work=Worked on the explanation video for the keyboard. Modified my server so that I can host www.greyportal.com on it and changed the settings I have with Godaddy for the nameservers so they match the servers for my blog.
+
+6/1/10-presummer
+Hours worked=0.25
+Summary of work=Parts arrived. I verified that all 100 buttons and the two atmega168 ICs were present but did not start soldering them to the boards.
+
+6/5/10-presummer
+Hours worked=5
+Summary of work=Soldered the entire keyboard today. Found a single error on the pcb, the avcc pin was not connected to power. I fixed it with a carefully placed wire. Code was successfully written to the atmega168, but something odd was wrong with the device signature. I forced avrdude to ignore the signature, and it seemed to work fine. I finished soldering all the buttons and it stopped working at all. It says to check the connections but also says the device signature is 0, so I suspect that there is a short. I talked to Forest today about various aspects of Greyport, notably the cost and organization involved with developing on the same hardware at the same time.
+
+6/6/10-presummer
+Hours worked=4
+Summary of work=Started constructing the greyportal website today. Took a long time messing around with CNAME settings in my Godaddy account to get the google-hosted site to have the greyportal domain. Only a small bit of work done on modifying the google site template to suit the needs of the project. No content has been added as of yet. Spent an hour or so working on possible logos for greyport. The main theme has been a computer octopus with cables for arms and plugs on the end.
+
+6/7/10-presummer
+Hours worked=0.5
+Summary of work=Continued modifying the website today. Mostly worked getting rid of parts of the template that are not needed.
+
+6/8/10-presummer
+Hours worked=0.25
+Summary of work=Continued removing unneeded parts of the template. Arranged for a friend to make the logo for greyport.
+
+6/18/10-summer
+Hours worked=1
+Summary of work=Went to Radioshack and bought some supplies for greyport. Just got simple things like solder and proto boards, but I did make one big find. I asked the guy behind the counter really nicely and he went into the back room and found me some etchant, which I haven't been able to acquire before. I grabbed a copper-clad board when I realized they actually had some etchant so now I am all set to create some prototype boards for whatever is needed.
+
+6/21/10-summer
+Hours worked=1
+Summary of work=Budgeted the first parts that are going to be purchased for greyport. I decided to get the atmega128 header board, graphical LCD, and the STK500 development board to get started. Hopefully I'll be able to use the parts to make a good enough start on greyport to get more money to finish it. I found some pictures of the graphical LCD that I was going to get and realized that I really did not like the way it looked, so I decided to try to source a new one. It is proving to be fairly difficult, but I don't doubt that I'll be able to find a suitable LCD.
+
+6/22/10-summer
+Hours worked=4
+Summary of work=Found a brilliant TFT display for greyport sold by New Haven Display. It seemed way to small at first but then I cut its dimensions out of paper and compared it to the viewable dimensions of my TI-84 calculator and it was about the same so I think that it will actually be a very nice size. The interface is 8 bits and I've thoroughly checked the datasheet so I am confident it will work with the hardware design that I have together so far.
+
+7/5/10-summer
+Hours worked=5
+Summary of work=Cleaned up a lot of the project website. Added some pages and wrote the first update. The update has a timeline of all the work that I have done so far. I wrote a bio for myself but I didn't find a picture so I didn't include one. I opened up notepad and started typing out ideas I have about the greyport concept. It helped significantly to figure out a way to express the purpose of the device concisely to a general audience. I created a favicon for the site by shrinking the logo my mom created and then modifying the pixels by hand.
+
+7/6/10-summer
+Hours worked=.5
+Summary of work=Added contact page to website. Added a component overview page to the website and started writing the section about the keyboard prototype.
+
+7/7/10-summer
+Hours worked=2
+Summary of work=Continued working on the page about the keyboard prototype. Wrote a program to calculate the total amount of time that I have worked on greyport in java. It reads this project log and parses the hours.
+
+7/8/10-summer
+Hours worked=2
+Summary of work=Wrote some code for the keyboard prototype in assembly.
+
+7/9/10-summer
+Hours worked=1
+Summary of work=Attempted to solder more of the keyboard but had great difficulty because I cannot use flux. Found that most of the vias are near or under the atmega168, which means that the chip may not fit on when I try to solder it. I gave up after a while because of the difficulty.
+
+7/24/10-summer
+Hours worked=1
+Summary of work=Created new organization for project. Split development into separate phases, each with its own goals and required resources. Costs are broken down for every phase and for the whole project. I am planning to create a concept overview video so that I can raise interest and resources for the project. I am also going to try to get the assistance of my relatives and my father's business clients in order to get the money needed.
+
+7/26/10-summer
+Hours worked=5
+Summary of work=Organized short term and long term tasks for greyport. Took stock of my funds. I figured out exactly how much it will cost to get the basic prototype of greyport built. I began revising the keyboard module PCB design so that a new version can be sent to BatchPCB for manufacturing. I created an account for BatchPCB and researched a lot about it. Creating gerber files from my PCB design is proving difficult. I'll try to find a tutorial somewhere on the net. Updated project site with explanation of the new organization. Started thinking about how the core system of greyport will function and how the GUI will be handled as well as the filesystem.
+
+7/27/10-summer
+Hours worked=2
+Summary of work=Looked for and found atmega2560 breakout board. I have to manufacture it using BatchPCB. Submitted the design to the DRC bot and went to sleep.
+
+7/28/10-summer
+Hours worked=2
+Summary of work=Sourced the parts for the breakout board. Had a very difficult time finding what I needed on Digikey. The cost isn't terribly high, but I don't have enough to order it all yet.
+
+7/30/10-summer
+Hours worked=4
+Summary of work=Revised the Project Overview on the project website. Made it more specific and clear. Came up with a specific money plan for donations. Checked out the atmega2560 to see how specifically to connect external RAM and also what packages it is available in. I want to make sure that I have access to all of the i/o pins with the package that I get. Backed up this time log on the project site. Went out and got a bank account to manage funds for greyport.
+
+8/6/10-summer
+Hours worked=1
+Summary of work=Created new intermediary plan for greyport. I am going to build a smaller version using parts that I have on hand rather than the specific ones in my design so that I can actually get some real work done. When I switch to the final hardware I will be able to just port over whatever code I managed to write with little difficulty.
+
+1/12/11-school
+Hours worked=0.25
+Summary of work=Michael Senoyuit and Pradeesh Suganthan are now a part of the project. Greyport is being refactored and reorganized to act as a Critical Thinking Group project for gifted. A new detailed plan for building the first prototype is being created, taking into consideration the time constraints and the other requirements of the project.
+
+1/15/11-school
+Hours worked=7
+Summary of work=Created simple LED test circuit on breadboard and connected it to my Arduino Mega (seeeduino). Verified that the computer can communicate with atmega1280 over ISP connection. Set up AVR Studio project for the kernel. Discussed possible part sources and project website priviledges with Michael. Wrote update for project website with a very specific development plan and explanation. Updated the to-do list on the project website. Updated all project component pages for the software category on the project website. Spent a very long time sourcing a suitable LCD with Michael. The LCD that we eventually chose is a 2.4" TFT with 16 bit RGB interface. It is just barely within the capabilities of the atmega1280 to drive, writing the control code may be difficult. The LCD was ordered off of eBay and is now on its way. Last thing was to update the project summary on the website with the new goal.
+
+1/16/11-school
+Hours worked=2
+Summary of work=Built a test circuit for the keyboard matrix design using 9 buttons on a breadboard. Connected it to my Arduino and wrote some simple code to read from it. Made a revision so that any key can be pressed at any time and have them all be registered. The revision uses diodes on every button.
+
+1/21/11-school
+Hours worked=2.33
+Summary of work=Read the major parts of the Atmega1280 datasheet so that I could become familiar with the chip and be able to start writing the interpreter. Wrote a simple routine in the interpreter code to read a program stored in program flash memory into data space so that testing can proceed more easily. This routine is designed to be temporary, it just allows greycode programs to be specified in the source code of the interpreter so the AVR simulator tool can be used.
+
+1/22/11-school
+Hours worked=3.5
+Summary of work=Continued work on the interpreter. Barebones are finished. A program can now be read into memory and have its instructions read and executed sequentially by the interpreter. Implemented only NOP and part of OSCall as a proof of concept. Chose the initial instruction set that will be implemented for greycode. Organized the source of the project so that the instruction implementations are kept separate from the interpreter. There are still questions to settle about how the registers will be utilized and how memory resources will be kept separate between the user program and the interpreter.
+
+1/24/11-school
+Hours worked=6
+Summary of work=Met with Michael to work on the keyboard. Finished the design of the keyboard on perfboard and soldered it together entirely except for the controller. Spent time testing it using an Arduino Diecimila. Was unable to get the keyboard working but the design and construction was examined and no problems were found. The next step will be to solder in and connect the controller so that more thorough testing can be done and the firmware can be written.
+
+1/25/11-school
+Hours worked=2
+Summary of work=Soldered in the Atmega168 controller for the keyboard. Only finished and tested the programming interface, the controller is not yet connected to the actual keyboard.
+
+1/26/11-school
+Hours worked=6
+Summary of work=The LCD arrived today. Received it from Michael during school and took it home to work on it. Read the documentation for the LCD driver again and became acquainted with its control interface. The connector is tricky for breadboard use because it is a double header, I decided to just solder IDE ribbon cable to the needed pins so that it could be plugged into a breadboard more easily. Finished soldering it and wired up a simple test circuit with my Seeeduino Mega. Spent a while trying to fix the Seeeduino Mega, which had its bootloader erased. Apparently my USBTinyISP programmer can only handle chips with up to 64K of program flash memory, which means that it cannot reflash the bootloader on the Seeeduino Mega. Until I can get a better programmer this prevents the use of the Seeeduino with the Arduino environment. I gave up on the LCD for the day and focused again on the keyboard. I soldered connections between the controller and the keyboard rows and columns, and also added a female header for the serial connections.
+
+1/27/11-school
+Hours worked=4.5
+Summary of work=Wrote the firmware for the keyboard. Debugged some bad solder connections on the keyboard. Only the fourth (closest to controller) row of the keyboard works right now, the cause is uncertain, although I ruled out software as the culprit.
+
+2/2/11-school
+Hours worked=8
+Summary of work=Got the LCD display working finally. Went through the code again line by line and made sure that it was communicating in the way that I thought. I ran it through the debugger and ensured everything was being executed as expected. I then disassembled the circuit partially and wired the microcontroller into my logic analyzer so that I could verify that the correct signals were being sent. Small corrections were made throughout these tests but it still wasn't working so I did some searching online. Eventually I found someone trying to talk to the same LCD controller using a microcontroller in the AVR family. This person linked to the Application Notes for the LCD controller, which I did not have at that point. From the application notes I was able to correct the startup sequence and get the LCD working. The first test that I tried was blacking out the display (it defaults to white). The next test was to write a different color to each half of the display. The last test I did was to continuously write to the display, cycling through every color that it can display. The speed is fairly high, there is minimal flickering when rewriting the background as fast as possible. Because the microcontroller is only being run at 4Mhz right now this flickering should disappear at the final 16Mhz speed. I ran out of time in the day to finish writing a text driver library for it but I will be able to do that soon.
+
+2/4/11-school
+Hours worked=3
+Summary of work=Began major work on the text driver for the LCD. The first code I wrote was a proof-of-concept to show that I can change the drawing coordinates for the LCD. This is important because efficient drawing of the text requires that pixels are written to in columns that are 8 pixels tall, making up the character rows. After I was able to change the coordinates for drawing on the display I was able to change the color of specific character rows on the screen. The next thing that I will do is add the ability to draw a single character to the screen, and then from there I can add routines to draw strings and change the text drawing coordinates. While reading through the LCD controller datasheet I also happened across a set of registers that may let me reduce the resolution of the display enough that I can put a graphics buffer into RAM for pixel-specific drawing. Kernel integration of the LCD code will happen soon.
+
+2/18/11-school
+Hours worked=1
+Summary of work=Rewrote keyboard code to fix the poor hardware design and began testing.
+
+2/20/11-school
+Hours worked=5
+Summary of work=Started work on the greyBASIC compiler. Implementing in Java first. Read compiler section in book Elements of Computing Systems. Decided to start designing the greyBASIC language. Listed the most important key words and defined some behavior for variables and memory. Loose concepts forming for how programs will be organized. Side-tracked into finishing the graphics system design. Made the decision to focus on two modes, pixel and text. They will use up all of the internal RAM. Rewrote the code for the keyboard to drive the rows and read from the columns instead of vice versa. Works perfectly now. There were a few dead buttons but my multimeter and soldering iron fixed those quickly. One limitation that I've realized is that although pressing multiple buttons at once works, they must be on different rows or the keyboard behaves erratically. I fear this will require changing the hardware. Wrote the output routines for characters and pixels in C so that I can figure out how to write them in assembly, and so I have an easy to read reference for later use. Changed the default mode for the LCD so that pixels are written to the screen in an order that is easier to work with for the orientation that we are going to have it in on the final device. Created a new font and a font-creator utility in Java to go with the new character routines.
+
+2/21/11-school
+Hours worked=4.5
+Summary of work=Finished basic character library for the screen. 40x30 characters on the screen, each 8 by 8 pixels. Full ASCII font stored in flash memory. Only one output function at the moment, which draws a given character at a given row and column.
+
+3/5/11-school
+Hours worked=1
+Summary of work=Began researching for methods for implementing the greyBASIC interpreter. It is definitely going to be a line-by-line style interpreter using tokens. Examined the problem of parsing and evaluating mathematical expressions 
+
+3/6/11-school
+Hours worked=6
+Summary of work=Rewrote almost all of the LCD code in C. Decided that from this point forward the project is going to be written primarily in C. The old assembly code will still be used, but it now it is in-line with the C. Did not finish the character drawing routines.
+
+3/7/11-school
+Hours worked=2
+Summary of work=Continued work on the display routines. Worked on an implementation of the Shunting-Yard algorithm for evaluating mathematical expressions. Hashed-out how greyBASIC will be implemented for OS05. Wrote updates for the website.
+
+3/13/11-school
+Hours worked=2
+Summary of work=Finished the display routines. Text can now be drawn on the screen. Next up is finishing the keyboard firmware.
+
+3/15/11-school
+Hours worked=2
+Summary of work=Started rewriting the keyboard code in C. Just managed to finish the function prototypes and general structure.
+
+3/16/11-school
+Hours worked=2
+Summary of work=Continued working on keyboard firmware. Fleshed out the function prototypes. Code is finished enough to start testing on the hardware.
+
+3/17/11-school
+Hours worked=2
+Summary of work=Started testing the keyboard code on the keyboard hardware. Lots of small issues fixed. Finished most of the functionality. Last two functions to be written are to get the last pressed key and to reset the keyboard.
+
+3/19/11-school
+Hours worked=4
+Summary of work=Continued working on keyboard and testing code. Very strange problem is occurring with the first column. I know that the hardware works fine, because the assembly version of the code shows correct behavior, but the c version of the code does not put the last column in the correct place. I tried several different approaches but the same problem occurred.
+
+3/21/11-school
+Hours worked=3
+Summary of work=New hardware prototype of greyport. Stripped down using an Atmega168 for the main processor and a Nokia 3310 LCD for the display. Has a VDIP1 module for long term storage. Programming interface cleaned up on breadboard. This is designed as a very temporary development version of greyport to be used to more easily write the core of the operating system. When the new hardware arrives the first complete protoboard version of greyport will be built and software development will resume on that. Wrote a driver for the Nokia 3310 LCD. Worked out a system for organizing the source code of greyport so that drivers can easily be written for different versions of the hardware and combined with the core system with little difficulty.
+
+3/22/11-school
+Hours worked=3
+Summary of work=Took a big chunk out of the VDIP1 interface code.
+
+4/11/11-school
+Hours worked=3
+Summary of work=Attacked the evil bug in the keyboard code with the first column (which actually isn't with the first column but with binary math in my code I think). Still haven't fixed it but I have some leads to follow tomorrow.
+
+4/16/11-school
+Hours worked=6
+Summary of work=Finally solved the keyboard bug! It was an issue with timing, I was reading from the columns too quickly after the rows were primed. A simple 1 microsecond delay put in between when the rows are charged and when I read from them fixed the issue. After I conquered the bug I implemented the rest of the features that I had planned for the keyboard and even added a new one: Originally I had planned to have the keyboard only store the last key pressed, but I expanded that so that it now has a key buffer stored in RAM in FIFO format. Getting that working was rather annoying because I suck at using pointers in C and messed up a little bit of code that later created confusing problems. Eventually I had it all coded and tied off some loose ends and it was done.
+
+4/17/11-school
+Hours worked=6
+Summary of work=Wrote the keyboard driver for the kernel. Rewrote the UART driver because it turned out that receiving code was not working. I abandoned the original implementation and started fresh. This turned out to be a good move, because the new code works extremely well, is interrupt-based, and has a buffer for received data. By the time I had the UART code rewritten and the keyboard driver written I had found a few bugs in the keyboard firmware, which I corrected. With everything operating reliably I moved on to writing greyport's actual operating system. The first thing I did was allow the user to enter commands on a line and then press enter to have it stored to a string in memory. Then I moved on to writing the command decoder, which picks out what command has been entered and then runs the corresponding command function. I got as far as getting it to recognize the correct command before going off on a side-track adding features to the display driver. The very last thing I did was attempt to write a routine to scroll the display, but that failed miserably. I'll have to keep working on that.
+
+4/18/11-school
+Hours worked=3
+Summary of work=Continued working on greyport's operating system. Perfected the annoying scrolling code for the display driver. Implemented the reboot and clear commands. Created the boot logo image, but did not convert the image to a bitmap for the hardware to display or write the code necessary to draw a bitmap.
+
+4/21/11-school
+Hours worked=3
+Summary of work=Wrote the first working greyBASIC bytecode interpreter in one go. Didn't test until I was done writing code, and it worked perfectly just as expected on the first try. The bytecode instruction set is very small right now, but it includes enough to do almost any math (although some things would require a little ingenuity). There are three functions implemented: delay, print char, and clear. The structure developed enough for work to begin on the code editor.
+
+4/22/11-school
+Hours worked=2
+Summary of work=Wrote a compiler for greyBASIC in Java for debugging and testing of the interpreter.
+
+4/23/11-school
+Hours worked=2
+Summary of work=Wrote the skeleton of the greyBASIC editor for greyport. Does not actually run but the lookup tables are designed and everything is in place for the full editor to be written.
+
+5/14/11-school
+Hours worked=2
+Summary of work=Wrote some of the editor code that displays the current screenful of program and allows the user to scroll through it. Still need to add the ability to modify and not just view. Also, right now it can only display commands and does not handle parameters.
+
+5/16/11-school
+Hours worked=3
+Summary of work=Continued writing the editor code that displays the current screenful of program code and allows the user to scroll through their code. Added handling of parameters and also added a system to allow the editor to step through lines easily in order to displHay them without modifying the structure of the code. The code is still 1 to 1 in that it could in theory be directly executed while in the editor. Still buggy, needs more testing on the hardware.
+
+5/17/11-school
+Hours worked=2
+Summary of work=Fixed many bugs in the token-display system. The editor works almost correctly in terms of displaying the program that is being edited, but I have not yet tested the scrolling and I suspect that that will need some reworking once I do test it. I added the ability to invert text for display to the screen, which I am going to use to allow the user to see what they have selected in the editor. I suspect that getting the editing ability of the editor to work is going to be a daunting task compared to getting the program displayed.
+
+5/18/11-school
+Hours worked=2
+Summary of work=Fixed more bugs in the token-display system. The system now differentiates between the render position and the cursor position, which makes scrolling act correctly. Different parts of a line can now also be selected individually. The selected token is inverted so that the user can see what they have seleected. Added shell functions for the editing components of the editor, which require that the program allow insertion and deletion, and differentiate between different parts of the keyboard depending on the context in which the editing is occurring (hex value, function name, command, etc.)..
+
+5/21/11-school
+Hours worked=6
+Summary of work=Met with Michael to construct the final presentable working prototype. We constructed a new circuit using an Atmega32 instead of the Atmega168 that has been used for prototyping thus far. Much of the time was spent fixing issues we had stemming from moving to the new processor. We spent some time planning out the presentation and collecting information that we will need for it. We decided upon how we will present the actual hardware, opting for a spread-out case-less design rather than a contained device so that the innards can be seen.
+
+5/22/11-school
+Hours worked=4
+Summary of work=Stopped work on the token-based editor. You can use it to view the code and navigate it, but you cannot edit code using it. There are also some unresolved bugs in it that are proving very hard to squash. In the interest of time I spent two hours writing a hex-editor for greyport. It simply shows the program as a list of hexadecimal numbers and allows the user to edit the program in that format. You must consult the greyBASIC language reference or have the codes memorized in order to use it, but at least it works perfectly and can be used for the demo/presentation. At this point code can actually be written on greyport for greyport, it is self-sufficient. The next major area to work on are the kernel functions that greyBASIC has access to. We need some functions that deal with I/O in order to do a demo. I've also begun work on a PC-based application that works in conjunction with a Bus Pirate in order to provide a screen-capture system for greyport. The idea is that the computer will emulate the display, allowing greyport's code to stay the same while also allowing the screen to be displayed in real-time on the computer and also allow for screenshots and  the like. This will be invaluable for the presentation if I can get it working in time.
+
+5/23/11-school
+Hours worked=5
+Summary of work=Michael met with me at my house and we worked on the finishing touches for the presentation. A large part of the powerpoint was created by Michael while I added i/o functions to greyBASIC and tested them. Some random bugs were fixed, notably a bug with the text shadow not being cleared after exiting the editor and the not-exactly-comparing string comparison routine used to identify commands entered on the command line. At the very end with the last 30 minutes or so of time I tried to put in a boot image, but there was a problem with both the converter that I wrote and the code that was actually displaying the image so the effort had to end in failure. Tomorrow we will meet again and put the very last touches on the presentation, whcih include creating a demo, finishing the powerpoint, and possibly finishing the program that will let the screen be displayed on the computer.
+
+5/24/11-school
+Hours worked=6
+Summary of work=Michael met with me again. We mounted the hardware to a board for display and did final testing. We wired up the I/O port so that it can be used with the test leads for the bus pirate. Finished the power point. Rewrote some small parts in the interpreter so that GOTO and DELAY behave properly. Designed a demo using a toy robot. Used an Arduino to validate that the robot could be controlled by greyport before risking our hardware. Wrote the greyBASIC code for the demo and tested it. Did some editing on both my own and Michael's logs, and verified that everything is ready for the presentation tomorrow.

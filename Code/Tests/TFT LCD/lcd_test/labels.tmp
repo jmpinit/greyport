@@ -1,0 +1,44 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.1.30</VERSION>
+ <DEVICE>ATmega168</DEVICE>
+ <WORKING_DIR>C:\Projects\Hardware\Greyport\lcd\code\lcd_test</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:\Program Files\Atmel\AVR Tools\AvrAssembler2\Appnotes</DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>C:\Projects\Hardware\Greyport\lcd\code\lcd_test\lcd_test.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:\Program Files\Atmel\AVR Tools\AvrAssembler2\Appnotes\m168def.inc</FILE>
+  <FILE>C:\Projects\Hardware\Greyport\lcd\code\lcd_test\startup.asm</FILE>
+  <FILE>C:\Projects\Hardware\Greyport\lcd\code\lcd_test\font_basic.asm</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>C:\Projects\Hardware\Greyport\lcd\code\lcd_test\lcd_test.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>C:\Projects\Hardware\Greyport\lcd\code\lcd_test\lcd_test.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>C:\Projects\Hardware\Greyport\lcd\code\lcd_test\lcd_test.map</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <reset><FILE>C:\Projects\Hardware\Greyport\lcd\code\lcd_test\lcd_test.asm</FILE><LINE>267</LINE></reset>
+  <delay><FILE>C:\Projects\Hardware\Greyport\lcd\code\lcd_test\lcd_test.asm</FILE><LINE>27</LINE></delay>
+  <delay0><FILE>C:\Projects\Hardware\Greyport\lcd\code\lcd_test\lcd_test.asm</FILE><LINE>30</LINE></delay0>
+  <delay1><FILE>C:\Projects\Hardware\Greyport\lcd\code\lcd_test\lcd_test.asm</FILE><LINE>43</LINE></delay1>
+  <lcd_init><FILE>C:\Projects\Hardware\Greyport\lcd\code\lcd_test\lcd_test.asm</FILE><LINE>50</LINE></lcd_init>
+  <lcd_wr_reg><FILE>C:\Projects\Hardware\Greyport\lcd\code\lcd_test\lcd_test.asm</FILE><LINE>124</LINE></lcd_wr_reg>
+  <lcd_wr_reg16><FILE>C:\Projects\Hardware\Greyport\lcd\code\lcd_test\lcd_test.asm</FILE><LINE>94</LINE></lcd_wr_reg16>
+  <lcd_wr_data16><FILE>C:\Projects\Hardware\Greyport\lcd\code\lcd_test\lcd_test.asm</FILE><LINE>109</LINE></lcd_wr_data16>
+  <lcd_fill><FILE>C:\Projects\Hardware\Greyport\lcd\code\lcd_test\lcd_test.asm</FILE><LINE>153</LINE></lcd_fill>
+  <lcd_fill0><FILE>C:\Projects\Hardware\Greyport\lcd\code\lcd_test\lcd_test.asm</FILE><LINE>170</LINE></lcd_fill0>
+  <lcd_fill1><FILE>C:\Projects\Hardware\Greyport\lcd\code\lcd_test\lcd_test.asm</FILE><LINE>172</LINE></lcd_fill1>
+  <lcd_put_char><FILE>C:\Projects\Hardware\Greyport\lcd\code\lcd_test\lcd_test.asm</FILE><LINE>193</LINE></lcd_put_char>
+  <font_basic><FILE>C:\Projects\Hardware\Greyport\lcd\code\lcd_test\font_basic.asm</FILE><LINE>1</LINE></font_basic>
+  <lcd_draw_char><FILE>C:\Projects\Hardware\Greyport\lcd\code\lcd_test\lcd_test.asm</FILE><LINE>221</LINE></lcd_draw_char>
+  <lcd_draw_char0><FILE>C:\Projects\Hardware\Greyport\lcd\code\lcd_test\lcd_test.asm</FILE><LINE>227</LINE></lcd_draw_char0>
+  <lcd_draw_char1><FILE>C:\Projects\Hardware\Greyport\lcd\code\lcd_test\lcd_test.asm</FILE><LINE>231</LINE></lcd_draw_char1>
+  <lcd_draw_char2><FILE>C:\Projects\Hardware\Greyport\lcd\code\lcd_test\lcd_test.asm</FILE><LINE>243</LINE></lcd_draw_char2>
+  <lcd_draw_char3><FILE>C:\Projects\Hardware\Greyport\lcd\code\lcd_test\lcd_test.asm</FILE><LINE>250</LINE></lcd_draw_char3>
+  <forever><FILE>C:\Projects\Hardware\Greyport\lcd\code\lcd_test\lcd_test.asm</FILE><LINE>276</LINE></forever>
+ </LABELS>
+</ASSEMBLER_INFO>

@@ -1,0 +1,2 @@
+@ECHO OFF
+"C:\Program Files\Atmel\AVR Tools\AvrAssembler2\avrasm2.exe" -S "C:\Projects\Hardware\Greyport\lcd\code\lcd_characters\labels.tmp" -fI -W+ie -o "C:\Projects\Hardware\Greyport\lcd\code\lcd_characters\lcd_characters.hex" -d "C:\Projects\Hardware\Greyport\lcd\code\lcd_characters\lcd_characters.obj" -e "C:\Projects\Hardware\Greyport\lcd\code\lcd_characters\lcd_characters.eep" -m "C:\Projects\Hardware\Greyport\lcd\code\lcd_characters\lcd_characters.map" "C:\Projects\Hardware\Greyport\lcd\code\lcd_characters\lcd_characters.asm"

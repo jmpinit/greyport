@@ -1,0 +1,4 @@
+GOTO A
+SET A 100
+ADD B C
+SKIP_IF A < B
